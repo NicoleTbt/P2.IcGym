@@ -1,2 +1,2 @@
 # P2.IcGym
-Responsive website using bootstrap Project 2 Gym website
+Responsive website using bootstrap /Project 2 Gym website

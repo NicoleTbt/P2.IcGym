@@ -1,0 +1,272 @@
+
+.navbar-BackColor{
+    background-color: black;
+}
+
+#logo-img{
+    height:20%;
+    width:20%;
+ margin-left:15%;
+ float: left;
+
+}
+
+#intro{
+    
+    margin-top: 92.9px;
+    background-color:black ;
+}
+.main-image{
+    width:40%;
+    margin-left: 60%;
+}
+#intro-quote{
+    display: inline-block;
+    font-size:2.5em;
+    color: white;
+}
+#about-us{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-bottom: 4%;
+    padding-top: 4%;
+}
+.section-title{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.AU-img{
+width:150px;
+height: 150px;
+margin-bottom: 1.5%;
+}
+
+/*Facilities*/
+#facilities{
+    background-color: black;
+}
+
+.FC-img{
+    position:absolute;
+    height: 50%;
+    width:30%;
+}
+
+.tfc{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 0px;
+   color:white;
+}
+
+ /*facilities image order*/
+.i21{
+    margin-top:2%;
+    margin-left:10.3%;
+}
+.i22{
+    margin-top:17%;
+    margin-left:33.3%;
+}
+.i23{
+    margin-top:2%;
+    margin-left:58.3%;
+
+}
+.i24{
+    z-index:1;
+    margin-top:32%;
+    margin-left:10.3%;
+}
+.i25{
+    margin-top:32%;
+    margin-left:58.3%;
+}
+
+.FC{
+    z-index:-1;
+    padding-top:55%;
+    padding-bottom: 1%;
+}
+
+/*pricing*/
+.container{
+    font-family: 'Kanit', sans-serif;
+    margin-top: 3%;
+}
+.cards{
+    transition: all 0.3s;
+}
+.cards:hover{
+    transform:scale(1.15);
+}
+
+
+/*testemonials*/
+#Testemonials{
+    margin-top: 4%;
+    height: 30%;
+    background-color:black;
+    text-align: center;
+}
+
+.test-desc{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 20%;
+    max-width:60% ;
+    font-size: x-large;
+    color:white;
+}
+.test-img{
+    width:10%;
+    height:7%;
+    border-radius:100%;
+
+}
+#Testemonial-carousel{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+/*Guidelines*/
+.gc{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    padding-bottom: 20px;
+}
+.scrollspy-example {
+    height: 300px;
+    overflow: scroll;
+}
+#list-example{
+    margin-top: 50px;
+}
+
+
+/*Contact*/
+
+footer{
+    padding-top: 1%;
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.ctdesc{
+    font-size: large;
+    text-align: left;
+    margin-left:2%;
+    margin-bottom: 0%;
+    padding-bottom: 0.5%;
+}
+.ftr-img{
+    margin-right:0.5%;
+    padding-bottom: 0.5%;
+    width: 2%;
+    height:2%;
+}    
+
+.end{
+    margin-bottom: 0;
+    padding-bottom: 0.5%;
+}
+/*Medium Screen*/
+
+@media (max-width:1000px) {
+
+        .main-image{
+            padding-top: 50px;
+            margin-left:35%;
+            height:220px;
+            width:250px;
+        }
+
+         .FC-img{
+            width:35%;
+            height:17%;
+        }
+        .FC{
+            padding-top:60%;
+            padding-bottom: 1%;
+        }
+        .test-img{
+            width:20%;
+            height:14%;
+        }
+        .ftr-img{
+            margin-right:2%;
+            padding-bottom: 2%;
+            width: 6%;
+            height:6%;
+        }  
+    
+        }
+
+
+/*Phone Screen*/
+
+
+  @media (max-width:600px) {
+
+            .main-image{
+                padding-top: 50px;
+                margin-left:35%;
+                height:220px;
+                width:250px;   
+         }
+        
+             .AU-img{
+                    width:100px;
+                    height: 100px;
+                    margin-bottom: 1%;
+            }
+            .test-desc{
+                font-size:medium;
+           
+            }
+        
+            .FC-img{
+                clip-path: polygon(0 19%, 100% 0, 100% 80%, 0 100%);
+                width:100%;
+                height:35%;
+                margin-left: 0%;
+                margin-top:0%;
+                text-align: right;
+                position: relative;
+            }
+        
+            .i21{
+               
+                margin-top:1%;
+            }
+            .FC{
+                z-index:-1;
+                padding-top: 1%;
+            }
+            .test-img{
+                width:30%;
+                height:21%;
+            }
+            .test-desc{
+                margin-left: 10%;
+                max-width:80% ;
+            }
+            .ftr-img{
+                margin-right:2%;
+                padding-bottom: 2%;
+                width: 7%;
+                height:7%;
+            }  
+            
+           .ctdesc{
+            margin-bottom: 5%;
+           }
+            }
+
+            
